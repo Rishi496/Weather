@@ -1,0 +1,111 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+align-content: center;
+}
+.main{
+  background-color: white;
+  width:450px;
+  padding:10px;
+border-radius: 5px;
+box-shadow: 0px 0px 30px 5px;
+}
+.con{
+display: flex;
+border: 2px solid black;
+flex: 1;
+justify-content: space-between;
+padding: 8px;
+border-radius: 5px;
+margin-top: 20px;
+}
+.searching >img{
+  width: 30px;
+  cursor: pointer;
+}
+input{
+  width: 100%;
+  border: none;
+  padding: 8px;
+  border-style: none;
+  outline: none;
+
+}
+.imgage >img{
+  width: 200px;
+  display: flex;
+  /* border: 5px solid red; */
+
+}
+.imgage{
+  display: flex;
+  justify-content: center;
+}
+.detail{
+  color: black;
+  /* border: 5px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lat{
+  color: black;
+  /* border: 5px solid red; */
+  display: flex;
+  justify-content: space-around;
+}
+.latitude , .longitude{
+  padding: 15px;
+  /* border: 5px solid; */
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+.ra{
+  color: black;
+  /* border: 5px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.humidity>img ,.windspeed >img{
+  width: 100px;
+  height: 80px;
+}
+.humidity ,.windspeed{
+/* border: 5px solid; */
+  display: inline-block;
+  width: 100px;
+  padding: 15px;
+  text-align: center;
+}
+.detail >p{
+  margin-bottom: -5px;
+}
+.temp{
+  font-weight: 700;
+}
+.location{
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(116, 157, 157);
+}
+@media screen and (max-width:470px) {
+  .main{
+    width:  350px;
+  }
+}

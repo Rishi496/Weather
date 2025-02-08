@@ -107,6 +107,14 @@ input{
 @media screen and (max-width:470px) {
   .main{
     width:  350px;
-    height:90vh;
+  }
+   body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid green;
+  height: 97vh;
   }
 }

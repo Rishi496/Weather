@@ -107,6 +107,6 @@ input{
 @media screen and (max-width:470px) {
   .main{
     width:  350px;
-    height:95vh;
+    height:90vh;
   }
 }

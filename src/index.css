@@ -114,7 +114,6 @@ input{
     align-items: center;
     justify-content: center;
     align-content: center;
-    border: 2px solid green;
-  height: 97vh;
+    height: 97vh;
   }
 }
